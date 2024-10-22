@@ -4,7 +4,7 @@ def tu_nombre():
 
 
 def cual_sexo():
-    return input(" que sexo eres hombre/mujer: ").lower()
+    return input("que sexo eres hombre/mujer: ").lower()
 
 
 
@@ -14,9 +14,9 @@ def cual_sexo():
 def main():
     nombre = tu_nombre()
     sexo = cual_sexo()
-    if  sexo == "mujer" and nombre[0] < "M":
+    if  sexo == "mujer" and nombre < "M":
         print("grupo A es mujer")
-    elif  sexo == "hombre" and nombre[0] > "N": 
+    elif  sexo == "hombre" and nombre > "N": 
         print("grupo A es hombre")
     else:
         print("grupo B")
