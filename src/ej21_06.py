@@ -14,9 +14,9 @@ def cual_sexo():
 def main():
     nombre = tu_nombre()
     sexo = cual_sexo()
-    if  sexo == "mujer" and nombre < "M":
+    if  sexo == "mujer" and nombre[0] < "M":
         print("grupo A es mujer")
-    elif  sexo == "hombre" and nombre > "N": 
+    elif  sexo == "hombre" and nombre[0] > "N": 
         print("grupo A es hombre")
     else:
         print("grupo B")
