@@ -13,4 +13,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-Se canceló la operación de confirmación debido a un mensaje de confirmación vacío.Se canceló la operación de confirmación debido a un mensaje de confirmación vacío.
