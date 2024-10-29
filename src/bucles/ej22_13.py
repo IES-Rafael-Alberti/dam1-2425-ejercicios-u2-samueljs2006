@@ -1,5 +1,6 @@
 def eco():
-    while True:
+    texto = ""
+    while texto != "salir":
         texto = input("Escribe algo (o 'salir' para terminar): ")
         if texto.lower() == "salir":
             print("Programa terminado.")
@@ -11,3 +12,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+Se canceló la operación de confirmación debido a un mensaje de confirmación vacío.Se canceló la operación de confirmación debido a un mensaje de confirmación vacío.
