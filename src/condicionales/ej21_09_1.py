@@ -1,11 +1,11 @@
+# En este codigo si me funciona el pytest en el ej21_09.py no me funciono 
 def precio_entrada(edad):
     if edad < 4:
-        print("entra gratis")
-    elif edad >= 4 and edad < 18:
-        print("paga 5€")
-    elif edad >= 18:
-        print("paga 10€")
-
+        return "entra gratis"
+    elif edad < 18:
+        return "paga 5€"
+    else:
+        return "paga 10€"
 
 
 

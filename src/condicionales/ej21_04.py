@@ -1,8 +1,8 @@
 def es_impar_o_par(num):
     if num % 2 == 0:
-        print(" Es par")
+        return "Es par"
     elif num % 1 == 1:
-        print("Es impar")
+        return "Es impar"
 
 
 

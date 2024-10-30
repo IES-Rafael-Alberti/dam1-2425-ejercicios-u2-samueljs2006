@@ -1,10 +1,10 @@
 def nivel(puntuacion):
     if puntuacion == 0.0:
-        print(f"nivel inaceptable {2400*puntuacion}")
+        return f"nivel inaceptable {2400*puntuacion}"
     elif puntuacion == 0.4:
-        print(f"nivel aceptable {2400*puntuacion}")
+        return f"nivel aceptable {2400*puntuacion}"
     elif puntuacion >= 0.6:
-        print(f"nivel meritorio {2400*puntuacion}")
+        return f"nivel meritorio {2400*puntuacion}"
 
 
 

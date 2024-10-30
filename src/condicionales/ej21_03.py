@@ -1,19 +1,18 @@
-def division():
+def division(n1: int, n2: int) -> str:
     try:
-        n1= int(input("Introduce un numero: "))
-        n2= int(input("Introduce un numero: "))
-    except ValueError:
-        print("*ERROR* de conversión!")
-    else:
         if n2 == 0:
-            print("*ERROR* No se puede dividir entre 0")
-        else:
-            print(n1/n2)
+            return "*ERROR* No se puede dividir entre 0"
+        return str(n1 / n2)
+    except ValueError:
+        return "*ERROR* de conversión!"
 
 def main():
-    division()
+    try:
+        n1 = int(input("Introduce un numero: "))
+        n2 = int(input("Introduce un numero: "))
+        print(division(n1, n2))
+    except ValueError:
+        print("*ERROR* de conversión!")
 
-
-
-if __name__ =="__main__":
+if __name__ == "__main__":
     main()

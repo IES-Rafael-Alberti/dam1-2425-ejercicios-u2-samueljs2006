@@ -23,9 +23,9 @@ def main():
     edad = int(input("Introduce edad: "))
     ingreso = float (input("Cuanto ganas: "))
     if pedir_edad(edad) and pedir_ingreso(ingreso):
-        print("si tributa")
+        return "si tributa"
     else:
-        print("no tributa")
+        return "no tributa"
 
 
 
